@@ -1,0 +1,79 @@
+@import url ("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,700i")
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body  {
+    background-color: black;
+    color: #e8c33e;
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 190%;
+    text-align: center;
+}
+#header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: black;
+}
+#inner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h2  {
+    font-size: 400%;
+    line-height: 125%;
+    margin-top; 10%;
+}
+h3  {
+    font-size: 250%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.one-half {
+    width: 45%;
+    float: left;
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: 10%;
+}
+.disney  {
+    width: 100%;
+}
+footer  {
+    height: 100px;
+    opacity: .5;
+    padding-top: 3%;
+    margin-top: 10%;
+    border-top: 2px solid #e8c33e;
+}
+@media screen and (max-width: 778px) {
+
+.one-half {
+    width: 100%;
+}
+.one-half img {
+    margin-right: 3%;
+}
+.disney {
+    width: 100%;
+}
+h3  {
+    text-align: center;
+    line-height: 115%;
+    font-size: 175%;
+ }
+}
